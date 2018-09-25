@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+
+.container{
+	font-family: verdane;
+}
+
+html {
+  background-color: pink; 
+	}
+
+header{
+	
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 20px auto;
+	border-bottom: dotted 5px green;
+
+	}
+
+h3{
+	text-transform: uppercase;
+	margin: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer {
+	text-align: center; 
+	background-color: green;
+	width: 100%;  /*laius kogu lehe ulatuses*/
+	padding: 20px; /*kasti välisäärest sissepoole liikudes*/
+	margin-top: 4%; /*välisäärest väljapoole liikudes vahed*/
+	margin-bottom: 4%;
+}
